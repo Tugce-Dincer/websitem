@@ -1,0 +1,125 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #010018;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Her satırda 2 kutu */
+            gap: 20px; /* Kutular arasındaki boşluk */
+            max-width: 1200px;
+            margin: 0 auto; /* Ortalamak için */
+        }
+
+        .hover-box {
+            display: flex;
+            width: 100%;
+            height: 70%;
+            background-color: rgb(173, 165, 248);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .hover-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .hover-box img {
+            width: 40%;
+            height: 120%;
+            object-fit: cover;
+        }
+
+        .hover-box-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hover-box-content h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .hover-box-content p {
+            margin: 10px 0 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hover-box">
+            <img src="Resimler/klaus.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Klaus Mikaelson</h3>
+                <p>Klaus Mikaelson, The Vampire Diaries ve The Originals dizilerinde, hem korkutucu hem de derin bir duygusallığa sahip, ailesine ve gücüne olan bağlılığıyla tanınan karizmatik bir hibrit (vampir-kurtadam) karakterdir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/rebekah,.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Rebekah Mikaelson</h3>
+                <p>Rebekah Mikaelson, The Vampire Diaries ve The Originals dizilerinde, sonsuzluğu yaşarken gerçek aşkı ve insan olmanın anlamını arayan, sadakati ve hırçınlığıyla dikkat çeken bir Orijinal vampirdir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/elijah.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Elijah Mikaelson</h3>
+                <p>Elijah Mikaelson, The Vampire Diaries ve The Originals dizilerinde, asaletine, ahlak kurallarına ve ailesine olan derin bağlılığıyla tanınan zarif ve güçlü bir Orijinal vampirdir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/freya.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Freya Mikaelson</h3>
+                <p>Freya Mikaelson, The Originals dizisinde, ailesini korumak için her şeyi göze alan güçlü, fedakâr ve zeki bir cadıdır.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/marcel.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Marcel Gerard</h3>
+                <p>Marcel Gerard, The Originals dizisinde, zekası, karizması ve liderlik yetenekleriyle New Orleans'ın kontrolünü elinde tutan, aynı zamanda Klaus Mikaelson ile karmaşık bir geçmişe sahip güçlü bir vampirdir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/hayley.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Hayley Marshall</h3>
+                <p>Hayley Marshall, The Vampire Diaries ve The Originals dizilerinde, cesur, bağımsız ve ailesi için her şeyi göze alabilecek kadar sevgi dolu bir kurt adam ve hibrit karakterdir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/lhope.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Hope Andrea Mikaelson</h3>
+                <p>Küçük Hope Mikaelson, The Originals dizisinde, Klaus Mikaelson ve Hayley Marshall’ın kızı olarak doğan, ailesinin sevgiyle koruduğu ve doğaüstü güçleriyle kaderinde büyük bir rol taşıyan özel bir çocuk karakterdir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/davina.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Davina Claire</h3>
+                <p>Davina Clair, The Originals dizisinde, genç yaşına rağmen olağanüstü güçlere sahip, sevdiklerini korumak için cesurca mücadele eden yetenekli ve kararlı bir cadıdır.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #010018;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Her satırda 2 kutu */
+            gap: 20px; /* Kutular arasındaki boşluk */
+            max-width: 1200px;
+            margin: 0 auto; /* Ortalamak için */
+        }
+
+        .hover-box {
+            display: flex;
+            width: 100%;
+            height: 70%;
+            background-color: rgb(173, 165, 248);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .hover-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .hover-box img {
+            width: 40%;
+            height: 120%;
+            object-fit: cover;
+        }
+
+        .hover-box-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hover-box-content h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .hover-box-content p {
+            margin: 10px 0 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hover-box">
+            <div class="hover-box-content">
+                <h3>Sezon 1 Fragmanı</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BmVmhjjkN4E?si=hlZvgIug5xeMV7Mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="hover-box">
+            <div class="hover-box-content">
+                <h3>Sezon 2 Fragmanı</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HW_bd0k5_Tg?si=xexfA4R6MQ5XJ1Jx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="hover-box">
+            <div class="hover-box-content">
+                <h3>Sezon 3 Fragmanı</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lguUg0fVio8?si=qIVIwAK4QztwNJoL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="hover-box">
+            <div class="hover-box-content">
+                <h3>Sezon 4 Fragmanı</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jwFI3mmt7IE?si=Nhrs1rOn5B9dlWIi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="hover-box">
+            <div class="hover-box-content">
+                <h3>Sezon 5 Fragmanı</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5i8v8ZYZENA?si=xPnM7ppK-xFET07S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="hover-box">
+            <div class="hover-box-content">
+                <h3>Sezon 6 Fragmanı</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7lx_OePXzh0?si=FY9IzGWgkMsgpAEr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="hover-box">
+            <div class="hover-box-content">
+                <h3>Sezon 7 Fragmanı</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WVTOcE_s4OU?si=PgjkVL-PvYDvl3bf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="hover-box">
+            <div class="hover-box-content">
+                <h3>Sezon 8 Fragmanı</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zAa_RgTeO7g?si=J8yvkCaN3phBCCFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #010018;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Her satırda 2 kutu */
+            gap: 20px; /* Kutular arasındaki boşluk */
+            max-width: 1200px;
+            margin: 0 auto; /* Ortalamak için */
+        }
+
+        .hover-box {
+            display: flex;
+            width: 100%;
+            height: 70%;
+            background-color: rgb(173, 165, 248);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .hover-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .hover-box img {
+            width: 40%;
+            height: 120%;
+            object-fit: cover;
+        }
+
+        .hover-box-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hover-box-content h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .hover-box-content p {
+            margin: 10px 0 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hover-box">
+            <img src="Resimler/rose.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Danielle Rose Russell</h3>
+                <p>Danielle Rose Russell, 31 Ekim 1999'da Pequannock Township, New Jersey, ABD'de doğmuş, Amerikalı bir oyuncudur. Russell, genç yaşta kariyerine başlamış ve etkileyici oyunculuğuyla kısa sürede büyük bir hayran kitlesi kazanmıştır.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/jenny.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Jenny Boyd</h3>
+                <p>Jenny Boyd, 27 Şubat 1991'de Sion, İsviçre'de doğmuş, İngiliz-Amerikalı bir oyuncudur. Boyd, oyunculuk kariyerine genç yaşta başlamış ve doğaüstü hikayelerdeki etkileyici performansıyla dikkat çekmiştir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/kaylee.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Kaylee Bryant</h3>
+                <p>Kaylee Bryant, 1 Kasım 1997'de Orange County, Kaliforniya'da doğmuş, Amerikalı bir oyuncudur. Bryant, oyunculuk kariyerine çocuk yaşta başlamış, çeşitli televizyon dizilerinde ve filmlerde yer almıştır.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/quincy.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+            <h3>Quincy Fouse</h3>
+                <p>Quincy Fouse, 26 Ağustos 1997'de ABD'de doğmuş, Amerikalı bir aktör ve müzisyendir. Fouse, oyunculuk kariyerinin yanı sıra müzikle de ilgilenmekte ve bağımsız projeler üretmektedir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/chris.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Chris Lee</h3>
+                <p>Chris Lee, Amerikalı bir aktör ve müzisyendir. Lee, oyunculuk kariyerine tiyatro sahnelerinde başlamış ve Broadway yapımlarında yer alarak dikkat çekmiştir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/giorgia.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Giorgia Whigham</h3>
+                <p>Giorgia Whigham, 20 Ağustos 1997'de New York, ABD'de doğmuş, Amerikalı bir aktrisdir. En çok 13 Reasons Why dizisindeki Kat rolü ve The Punisher dizisindeki Amy Bendix karakteriyle tanınır. Aynı zamanda Scream dizisindeki Beth karakteriyle de geniş bir hayran kitlesi kazanmıştır.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/aria.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Aria Shahghasemi</h3>
+                <p>Aria Shahghasemi, 7 Ekim 1996'da Minneapolis, Minnesota, ABD'de doğmuş, Amerikalı bir aktördür. Shahghasemi, oyunculuk kariyerine tiyatro projeleriyle başlamış ve ardından televizyon dünyasında kendine sağlam bir yer edinmiştir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/lulu.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Lulu Antariksa</h3>
+                <p>Lulu Antariksa, 22 Ağustos 1995'te Kaliforniya, ABD'de doğmuş, Amerikalı bir aktris ve şarkıcıdır. Hem ekranlarda hem de müzik sahnesinde yeteneklerini sergileyerek çok yönlü bir sanatçı olarak öne çıkmıştır.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

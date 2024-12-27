@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #010018;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px; 
+            max-width: 1200px;
+            margin: 0 auto; 
+        }
+
+        .hover-box {
+            display: flex;
+            width: 100%;
+            height: 70%;
+            background-color: rgb(173, 165, 248);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .hover-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .hover-box img {
+            width: 40%;
+            height: 120%;
+            object-fit: cover;
+        }
+
+        .hover-box-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hover-box-content h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .hover-box-content p {
+            margin: 10px 0 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hover-box">
+            <img src="Resimler/elena.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Elena Gilbert</h3>
+                <p>Elena Gilbert, The Vampire Diaries'de sevgi dolu, güçlü ve fedakâr bir genç kız olarak aşk, kayıp ve doğaüstü maceralarla cesurca yüzleşen bir karakterdir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/stefan.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Stefan Salvatore</h3>
+                <p>Stefan Salvatore, The Vampire Diaries dizisinde bir vampir olarak vicdan sahibi, romantik ve geçmişiyle mücadele eden bir karakterdir. Sevdiği insanları korumak için her zaman doğru olanı yapmaya çalışır.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/damon.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Damon Salvatore</h3>
+                <p>Damon Salvatore, The Vampire Diaries'de karmaşık bir kişiliğe sahip bir vampirdir. Kara mizahı, başına buyruk tavrı ve sevdiklerine olan derin bağlılığıyla tanınır.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/bonnie.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Bonnie Bennett</h3>
+                <p>Bonnie Bennett, The Vampire Diaries'de süper güçlü bir cadı, sadık bir dost ve sevdiği insanlar için her zaman elinden gelenin fazlasını yapan cesur bir karakter.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/caroline.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Caroline Forbes</h3>
+                <p>Caroline Forbes, The Vampire Diaries dizisinde yer alan bir karakterdir. Neşeli, mükemmeliyetçi ve zamanla kendine güvenen, sadık ve güçlü bir vampire dönüşen büyüleyici bir dönüşüm geçiriyor.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/tyler.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Tyler Lockwood</h3>
+                <p>Tyler Lockwood, The Vampire Diaries'de öfke sorunları ile başlayan ancak daha sonra kurt adam kimliğini kabul ederek daha güçlü ve olgun bir insan haline gelen bir karakterdir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/katherine.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Katherine Pierce</h3>
+                <p>Katherine Pierce, The Vampire Diaries'de büyüleyici ve karmaşık bir karaktere sahip bir vampir. Zeki, manipülatif ve hayatta kalmaya kararlı.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/alaric.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Alaric Saltzman</h3>
+                <p>Alaric Saltzman, The Vampire Diaries'de akıllı ve sadık bir karakter. İster vampir avcısı olsun ister koruyucu bir baba gibi davransın, sevdiği insanları korumak için her zaman cesurca savaşır.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

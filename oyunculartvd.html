@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #010018;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Her satırda 2 kutu */
+            gap: 20px; /* Kutular arasındaki boşluk */
+            max-width: 1200px;
+            margin: 0 auto; /* Ortalamak için */
+        }
+
+        .hover-box {
+            display: flex;
+            width: 100%;
+            height: 70%;
+            background-color: rgb(173, 165, 248);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .hover-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .hover-box img {
+            width: 40%;
+            height: 120%;
+            object-fit: cover;
+        }
+
+        .hover-box-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hover-box-content h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .hover-box-content p {
+            margin: 10px 0 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hover-box">
+            <img src="Resimler/nina.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Nina Dobrev</h3>
+                <p>Nina Dobrev, 9 Ocak 1989'da Bulgaristan'ın Sofya şehrinde doğmuş, Kanadalı oyuncu ve modeldir. Dobrev, oyunculuk kariyerine Degrassi: The Next Generation dizisiyle başlamış ve sinema dünyasında da birçok projede yer almıştır.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/paul.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Paul Wesley</h3>
+                <p>Paul Wesley, 23 Temmuz 1982'de New Jersey, ABD'de doğmuş, Polonya kökenli Amerikalı bir oyuncu, yönetmen ve yapımcıdır. The Vampire Diaries sonrası yönetmenlik ve yapımcılık alanında da başarılı projelere imza atmıştır.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/ian.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Ian Somerholder</h3>
+                <p>Ian Somerhalder, 8 Aralık 1978'de Louisiana, ABD'de doğmuş, Amerikalı bir aktör, yapımcı ve çevre aktivistidir. Kariyerine model olarak başlayan Somerhalder, Lost dizisindeki Boone Carlyle karakteriyle de geniş bir hayran kitlesi kazanmıştır.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/kat.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Kat Graham</h3>
+                <p>Kat Graham, 5 Eylül 1989'da İsviçre'nin Cenevre şehrinde doğmuş, Amerikalı bir oyuncu, şarkıcı, dansçı ve yapımcıdır.  Çocuk yaşta kariyerine reklamlarla başlayan Graham, oyunculuğun yanı sıra müzik kariyerinde de başarılı projelere imza atmıştır. Albümleri ve single'larıyla pop ve R&B türlerinde adını duyurmuştur. </p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/candice.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Candice King</h3>
+                <p>Candice King, 13 Mayıs 1987'de Houston, Teksas'ta doğmuş, Amerikalı bir oyuncu, şarkıcı ve podcast sunucusudur. Dizi dünyasındaki başarısının ardından, The Originals gibi diğer yapımlarda da Caroline rolüyle görünmüştür</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/michael.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Michael Trevino</h3>
+                <p>Michael Trevino, 25 Ocak 1985'te Montebello, Kaliforniya'da doğmuş, Amerikalı bir aktördür. The Originals dizisinde de kısa süreli olarak yer alarak rolünü devam ettirmiştir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/nina.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Nina Dobrev</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/davis.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Matt Davis</h3>
+                <p>Matt Davis, 8 Mayıs 1978'de Salt Lake City, Utah'ta doğmuş, Amerikalı bir aktördür. Davis, ayrıca Legally Blonde ve Blue Crush gibi popüler filmlerdeki rolleriyle de dikkat çekmiştir.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #010018;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Her satırda 2 kutu */
+            gap: 20px; /* Kutular arasındaki boşluk */
+            max-width: 1200px;
+            margin: 0 auto; /* Ortalamak için */
+        }
+
+        .hover-box {
+            display: flex;
+            width: 100%;
+            height: 70%;
+            background-color: rgb(173, 165, 248);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .hover-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .hover-box img {
+            width: 40%;
+            height: 120%;
+            object-fit: cover;
+        }
+
+        .hover-box-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hover-box-content h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .hover-box-content p {
+            margin: 10px 0 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hover-box">
+            <img src="Resimler/joseph.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Joseph Morgan</h3>
+            <p>Joseph Morgan, 16 Mayıs 1981'de Londra, İngiltere'de doğmuş, İngiliz bir aktör ve yönetmendir. Morgan, tiyatro ve televizyon projelerindeki etkileyici performanslarıyla tanınırken, kamera arkasında da yönetmenlik yaparak sanata olan tutkusunu göstermiştir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/claire.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Claire Holt</h3>
+                <p>Claire Holt, 11 Haziran 1988'de Brisbane, Avustralya'da doğmuş, Avustralyalı bir oyuncudur. Holt, kariyerine gençlik dizisi H2O: Just Add Water ile başlamış ve kısa sürede uluslararası bir üne kavuşmuştur.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/daniel.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Daniel Gillies</h3>
+                <p>Daniel Gillies, 14 Mart 1976'da Winnipeg, Kanada'da doğmuş, Kanadalı-Yeni Zelandalı bir aktör, yönetmen ve senaristtir. Gillies, televizyon projelerinin yanı sıra Spider-Man 2 gibi büyük yapımlarda da rol almıştır. Ayrıca yazıp yönettiği Broken Kingdom filmiyle sanata çok yönlü bir katkı sağlamıştır.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/riley.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Riley Voelkey</h3>
+                <p>Riley Voelkel, 26 Nisan 1990'da Elk Grove, Kaliforniya'da doğmuş, Amerikalı bir aktrisdir. Voelkel, güçlü ve duygu yüklü performanslarıyla özellikle doğaüstü temalı dizilerde dikkat çekmiştir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/charles.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Charles Michael Davis</h3>
+                <p>Charles Michael Davis, 1 Aralık 1984'te Dayton, Ohio'da doğmuş, Amerikalı bir aktör, yönetmen ve modeldir. Davis, etkileyici oyunculuğunun yanı sıra yönetmenlik yaparak kamera arkasında da yeteneklerini sergilemiştir.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/phoebe.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Phoebe Tonkin</h3>
+                <p>Phoebe Tonkin, 12 Temmuz 1989'da Sydney, Avustralya'da doğmuş, Avustralyalı bir oyuncu ve modeldir. Kariyerine gençlik dizisi H2O: Just Add Water ile başlayan Tonkin, kısa sürede uluslararası bir üne kavuşmuştur.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/summer.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Summer Fontana</h3>
+                <p>Summer Fontana, 7 Aralık 2008'de ABD'de doğmuş, genç bir aktris ve oyunculuk dünyasında hızla yükselen bir yıldızdır. Fontana, güçlü performansı ve yaşıtlarına göre gösterdiği olgun oyunculuk yeteneğiyle büyük beğeni toplamıştır.</p>
+            </div>
+        </div>
+        <div class="hover-box">
+            <img src="Resimler/danielle.jpg" alt="Örnek Resim">
+            <div class="hover-box-content">
+                <h3>Danielle Campbell</h3>
+                <p>Danielle Campbell, 30 Ocak 1995'te Illinois, ABD'de doğmuş, Amerikalı bir oyuncudur. Campbell, kariyerine genç yaşta Disney Channel yapımı StarStruck gibi projelerle başlamış ve ardından doğaüstü hikayelerdeki başarılı performansıyla dikkatleri üzerine çekmiştir.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
